@@ -16,7 +16,7 @@ Let's build together!
 | 💻 Medium    | [Reduan Hossain](https://redhossain.medium.com/)                       |
 
 ```bash
-git clone ___
+git clone https://github.com/r3dh0ss4in/NFT-Marketplace.git
 cd NFT-Marketplace
 npm install
 npm install --save-dev hardhat
