@@ -173,7 +173,6 @@ contract Farena is ERC721URIStorage {
         payable(owner).transfer(listPrice);
         payable(previousOwner).transfer(msg.value);
         
-        // Emit events
         emit TokenSold(tokenId, previousOwner, msg.sender, msg.value);
         emit Transfer(previousOwner, msg.sender, tokenId);
     }
