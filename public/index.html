@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo_2.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Farena NFT Marketplace - Buy, sell and trade unique digital assets"
+    />
+    <meta name="keywords" content="NFT, Marketplace, Ethereum, Crypto, Digital Art">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Open+Sans:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Farena - NFT Marketplace</title>
+    
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('%PUBLIC_URL%/background.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+      }
+      
+      /* Main content area - padding to account for fixed header */
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      /* Footer styling */
+      .footer {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        text-align: center;
+        margin-top: auto;
+      }
+      
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 15px;
+      }
+      
+      .social-links a {
+        color: white;
+        font-size: 24px;
+        transition: color 0.3s;
+      }
+      
+      .social-links a:hover {
+        color: #A500FF;
+      }
+      
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 15px;
+      }
+      
+      .footer-links a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      
+      .footer-links a:hover {
+        color: #A500FF;
+      }
+      
+      .copyright {
+        font-size: 14px;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Footer with social links and about -->
+    <footer class="footer">
+      <div class="social-links">
+        <a href="https://x.com/RedHossain" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="https://discord.gg/redhossain" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a>
+        <!-- <a href="https://instagram.com/farena" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a> -->
+        <a href="https://github.com/r3dh0ss4in" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/redhossain/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+      </div>
+      
+      <!-- <div class="footer-links">
+        <a href="../src/components/About.js">About</a>
+        <a href="/terms">Terms</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/faq">FAQ</a>
+        <a href="/contact">Contact</a>
+      </div> -->
+      
+      <div class="copyright">
+        &copy; 2025 Farena NFT Marketplace. All rights reserved.
+        [Reduan Hossain]
+      </div>
+    </footer>
+  </body>
+</html>
